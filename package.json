@@ -1,0 +1,24 @@
+{
+  "name": "smserver",
+  "description": "Smart Lock Server app ",
+  "version": "1.0.0",
+  "engines": {
+    "node": "9.8.0",
+    "npm" : "5.6.0"
+  },
+  "main": "Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Hamed shafighi",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "mongoose": "^4.4.14",
+    "nodemon": "^1.17.1",
+    "restify": "^4.1.1",
+    "restify-validator": "^0.3.1"
+  },
+  "devDependencies": {}
+}
