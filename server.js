@@ -5,7 +5,7 @@ var controller = require('./controller/controller.js');
 var restifyValidator = require('restify-validator');
 
 var mongoose = require('mongoose');
-mongoose.connect("mongodb://smlockdb:smlockdb@ds255588.mlab.com:55588/tempdb");
+mongoose.connect("mongo address");
 
 setup(server,restify,restifyValidator);
 controller(server);
